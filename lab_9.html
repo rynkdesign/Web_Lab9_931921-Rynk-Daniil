@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="lab_9.css">
+	<title>Practice 10</title>
+</head>
+<body>
+	<table>
+		<tr>
+			<td colspan="5">
+				<div class="inputLine">
+					<div class="blackNumb"></div>
+					<div class="grayNumb"></div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td><button onclick="numbButton('7')">7</button></td>
+			<td><button onclick="numbButton('8')">8</button></td>
+			<td><button onclick="numbButton(9)">9</button></td>
+			<td><button onclick="operButton('/')">/</button></td>
+			<td><button onclick="clearButton()">C</button></td>
+		</tr>
+		<tr>
+			<td><button onclick="numbButton(4)">4</button></td>
+			<td><button onclick="numbButton(5)">5</button></td>
+			<td><button onclick="numbButton(6)">6</button></td>
+			<td><button onclick="operButton('*')">*</button></td>
+			<td><button onclick="deleteButton()"><-</button></td>\
+        </tr>
+        <tr>
+			<td><button onclick="numbButton(1)">1</button></td>
+			<td><button onclick="numbButton(2)">2</button></td>
+			<td><button onclick="numbButton(3)">3</button></td>
+			<td><button onclick="operButton('-')">-</button></td>
+			<td rowspan="2"><button onclick="equationButton()">=</button></td>
+		</tr>
+		<tr>
+			<td colspan="2"><button onclick="numbButton(0)">0</button></td>
+			<td><button onclick="numbButton(10)">.</button></td>
+			<td><button onclick="operButton('+')">+</button></td>
+		</tr>
+	</table>
+
+	<script src="lab_9.js"></script>
+</body>
+</html>
